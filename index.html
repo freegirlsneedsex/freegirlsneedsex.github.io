@@ -1,0 +1,223 @@
+<!DOCTYPE html><html lang="en"><head>
+  <base href>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>whatsSex</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="files/css/style.css">
+        <link rel="stylesheet" href="files/css/style--whatsSex.css">
+            
+
+    </head>
+    <body class="lang-en">
+        <div class="wrapper">
+            <header>
+                <img src="files/fonts/logo--whatsSex.svg" alt="Logo">
+            </header>
+            <section class="wrapper-content">
+                <!-- step 1 -->
+                <div class="box js-step js-step1">
+                    <div class="box-img">
+                        <img src="files/images/ssid09.jpg" alt>
+                        <span class="sex-app">EXCLUSIVE<br>DATE APP</span>
+                    </div>
+                    <header class="box-header">
+                        <h2 class="text-transform-none">Have you ever used a date app?</h2>
+                    </header>
+                    <div class="box-btn">
+                        <button class="btn btn-yes" data-step="js-step2">YES</button>
+                        <button class="btn btn-no" data-step="js-step2">NO</button>
+                    </div>
+                </div>
+
+                <!-- step 2 -->
+                <div class="box js-step js-step2">
+                    <div class="box-img">
+                        <img src="files/images/ssid10.jpg" alt>
+                        <span class="sex-app">EXCLUSIVE<br>DATE APP</span>
+                    </div>
+                    <header class="box-header">
+                        <h2 class="text-transform-none">Did you ever get a picture of your hot neighbors?</h2>
+                    </header>
+                    <div class="box-btn">
+                        <button class="btn btn-yes" data-step="js-step3">YES</button>
+                        <button class="btn btn-no" data-step="js-step3">NO</button>
+                    </div>
+                </div>
+
+                <!-- step 3 -->
+                <div class="box js-step js-step3">
+                    <div class="box-img">
+                        <img src="files/images/ssid11.jpg" alt>
+                        <span class="sex-app">EXCLUSIVE<br>DATE APP</span>
+                    </div>
+                    <header class="box-header">
+                        <h2 class="text-transform-none">Would you like to try this?</h2>
+                    </header>
+                    <div class="box-btn">
+                        <button class="btn btn-yes" data-step="js-step4">YES</button>
+                        <button class="btn btn-no" data-step="js-step4">NO</button>
+                    </div>
+                </div>
+
+                <!-- step 4 -->
+                <div class="box js-step js-step4">
+                    <div class="box-img">
+                        <img src="files/images/ssid12.jpg" alt>
+                        <span class="sex-app">EXCLUSIVE<br>DATE APP</span>
+                    </div>
+                    <div class="box-content box-progress">
+                        <div class="item">
+                            <header class="box-header">
+                                <h2 class="text-transform-none">Checking your compatibility...</h2>
+                            </header>
+                        </div>
+                        <div class="progress-bar"></div>
+                        <button class="hide" data-step="js-step5">YES</button>
+                    </div>
+                </div>
+
+                <!-- step 5 -->
+                <div class="box box-final js-step js-step5">
+                    <header class="box-header">
+                        <h2 class="text-transform-none">Great! We think you fit in perfectly.</h2>
+                    </header>
+                    <div class="box-content">
+                        <p>Be ready to see profiles from your area.</p>
+<p>Do not forget that these are real members who want to be treated with respect exactly as you wish for yourself.</p>
+<p>Be open minded and have fun.</p>
+                    </div>
+                    <div class="box-btn">
+                                                    <a href="https://redirect.info-domen.com/offer" class="btn btn-confirm">Join in</a>
+                                            </div>
+                </div>
+            </section>
+        </div>
+
+        <script src="files/js/jquery.min.js"></script>
+        <script src="files/js/app.js"></script>
+<style>
+    .notify-popover-wrapper {
+        display: none;
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 10000;
+        animation: notifyPopoverFadeIn 700ms linear;
+        color: #000000;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .notify-popover-wrapper.notify-popover-active {
+        display: block;
+        top: 0;
+        transition: top 700ms linear;
+    }
+
+    .notify-popover-wrapper.notify-popover-slideup {
+        top: -100%;
+    }
+
+    .notify-popover {
+        margin: 0 auto;
+        padding: 15px;
+
+        max-width: 500px;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        background-color: #ffffff;
+        box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.22);
+        font-size: 1.0em;
+    }
+
+    .notify-popover-body {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .notify-popover-avatar {
+        flex: 1;
+        margin-right: 20px;
+    }
+
+    .notify-popover-headline {
+        flex: 4;
+        margin-bottom: 7px;
+        text-align: justify;
+    }
+
+    .notify-popover-buttons {
+        text-align: right;
+    }
+
+    .notify-popover-buttons .notify-popover-btn {
+        padding: 10px 20px;
+        border: 0;
+        background-color: #ffffff;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-radius: 2px;
+        color: #1165f1;
+        fonts-size: 1em;
+    }
+
+    .notify-popover-buttons .notify-popover-btn.notify-popover-btn-active {
+        background-color: #1165f1;
+        color: #ffffff;
+        transition: background-color 300ms linear;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 6px 0 rgba(0, 0, 0, 0.12);
+    }
+
+    .notify-popover-buttons .notify-popover-btn.notify-popover-btn-active:hover {
+        background-color: #0b4cb8;
+    }
+
+    @media (min-width: 768px) {
+        .notify-popover-buttons .notify-popover-btn {
+            margin-left: 5px;
+            padding: 10px 30px;
+            font-size: 1em;
+        }
+    }
+
+    @-webkit-keyframes notifyPopoverFadeIn {
+        from {
+            top: -100%;
+        }
+        to {
+            top: 0;
+        }
+    }
+
+    @keyframes notifyPopoverFadeIn {
+        from {
+            top: -100%;
+        }
+        to {
+            top: 0;
+        }
+    }
+</style>
+
+
+
+    
+
+<script> 
+	var lander_geo = 'CA'
+	var externalid = '';
+
+	var $submitBtn = $('.main_offer_link');
+	var smart_link = "https://null.null/null";
+	$submitBtn.click(function() {
+		event.preventDefault();
+		var win = window.open($('.main_offer_link').attr('href'), '_blank');
+		win.focus();
+		location.href = smart_link;
+	});
+</script>
+<script src="files/js/firebase-app.js"></script>
+<script src="files/js/firebase-messaging.js"></script>
+<script src="files/js/init.js"></script>
+<script src="files/js/firebase_subscribe.js"></script></body></html>
